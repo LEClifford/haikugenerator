@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Haiku For You</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alice&family=Sacramento&display=swap" rel="stylesheet">
+    <script defer src="index.js"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="card">
+        <div class="container">
+            <h1>Haiku Generator</h1>
+            <p>Choose a theme, then press the button to generate a whimsical haiku.</p>
+            <input type="text" id="theme" placeholder="Enter a theme">
+            <button onclick="generateHaiku()">Show Haiku</button>
+            <button id="clearButton" onclick="clearHaiku()" style="display: none;">Clear Haiku</button>
+            <p id="haiku"></p>
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,88 @@
+body {
+    background: url("assets/background.png") no-repeat center center fixed;
+    background-size: cover;
+    font-family: 'Alice', serif;
+    color: #020348;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    height: 60%;
+    padding-top: 40px;
+    padding-right: 80px;
+}
+
+.card {
+    background: white;
+    border-radius: 15px; 
+    padding: 20px;
+    max-width: 400px; 
+    width: 90%; 
+    margin-right: 110px;
+}
+
+.container {
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Sacramento', cursive;
+    font-size: 3.5rem;
+    color: #020348;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 1.3rem;
+    color: #020348;
+}
+
+.p haiku {
+    font-size: 1.6rem;
+    color: #020348;
+}
+
+input, button {
+    display: block;
+    margin: 10px auto;
+}
+
+input {
+    font-family: 'Alice', serif;
+    font-size: 1rem;
+    padding: 15x;
+    border: 2px solid #020348;
+    border-radius: 8px;
+    text-align: center;
+    width: 250px;
+}
+
+input::placeholder {
+    color: lightgray;
+    opacity: 1;
+}
+
+button {
+    font-family: 'Alice', serif;
+    font-size: 1rem;
+    background-color: #020348;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 20px;
+}
+
+button:hover {
+    background-color: #4EBAC1;
+}
+
+.button-group {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin-top: 5px;
+}
